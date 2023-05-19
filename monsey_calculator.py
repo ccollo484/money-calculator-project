@@ -4,12 +4,12 @@ total_money = 0
 #loop until user enter "quit"
 while True:
     #code to add money here
-    money_input = input("Enter amount of money to add here (or type 'quit' to exit): ")
+    wage_input = input("Enter amount of money to add here (or type 'quit' to exit): ")
     
-    if money_input.lower() == 'quit':
+    if wage_input.lower() == 'quit':
         break
 
-    money = float(money_input)
+    money = float(wage_input)
 
     total_money += money
     #short way of writing total_money = total_money + money
